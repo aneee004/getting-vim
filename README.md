@@ -14,5 +14,11 @@ sudo add-apt-repository --remove ppa:jonathonf/vim
 ```
 
 ## Step 2:
+### Get a Plugin Manager like [Vundle](https://github.com/VundleVim/Vundle.vim).
+1. Open a terminal and clone the Vundle repository.
+`git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+2. Open [`~/.vimrc`](https://github.com/aneee004/getting-vim/blob/main/.vimrc) and run `:PluginInstall`.
 
-<to be updated>
+## Step 3:
+### Other dependencies:
+1. Install node with `sudo apt isntall nodejs`.
